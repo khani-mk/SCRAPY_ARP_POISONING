@@ -6,16 +6,16 @@ Il permet d'intercepter le trafic entre une cible (machine victime) et une passe
 
 ---
 
-## 🚀 Fonctionnalités
+## Fonctionnalités
 - Scan du réseau pour identifier les adresses MAC.
 - Empoisonnement du cache ARP de la cible et de la passerelle.
 - Restauration automatique des tables ARP en cas d'interruption (Ctrl+C).
 - Script léger et modulaire basé sur Scapy.
 
-## 🛠️ Prérequis
+## Prérequis
 - Python 3.x
 - Les privilèges administrateur (root/sudo) pour la manipulation des paquets réseau.
 - La bibliothèque Scapy.
 
 ```bash
-pip install scapy
+pip install scapys
